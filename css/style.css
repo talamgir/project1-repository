@@ -1,4 +1,4 @@
-html{
+html {
 	margin: 0;
 	padding: 0;
 	height: 100%
@@ -72,7 +72,9 @@ nav {
 	padding: 10px;
 	margin-left: 0;
 	margin-right: 120px;
-	background: teal
+	background: teal;
+	border-top: 7px solid black;
+	border-bottom: 7px solid black;
 }
 
 .navmenu {
@@ -108,9 +110,39 @@ article {
 
 }
 
-.text {
+.text1 {
 	font-size: larger;
 	font-family: 'Josefin Slab', serif;
+	float: left;
+	display: inline-block;
+}
+
+.text2 {
+	font-size: larger;
+	font-family: 'Josefin Slab', serif;
+	float: right;
+	display: inline-block;
+}
+
+.text3 {
+	font-size: larger;
+	font-family: 'Josefin Slab', serif;
+	float: left;
+	display: inline-block;
+}
+
+.text4 {
+	font-size: larger;
+	font-family: 'Josefin Slab', serif;
+	float: right;
+	display: inline-block;
+}
+
+.text5 {
+	font-size: larger;
+	font-style: bold;
+	font-family: 'Josefin Slab', serif;
+	clear: both
 }
 
 .top-image {
