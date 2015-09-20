@@ -1,10 +1,10 @@
 body {
-	background-image: "savethewhales-background2.jpg"
-	margin: 0;
+	margin: 0
 }
 
 #sidebar {
 	width: 200px;
+	margin-top: 35px;
 	position: fixed;
 	left: 0
 }
@@ -42,21 +42,37 @@ h1 {
 }
 
 nav {
-	width: 960px;
-	margin: 0 auto
+	width: 700px;
+	padding: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+	background: teal
 }
 
 .navmenu {
 	list-style: none;
 	padding: 0;
+	width: 960px;
+	margin: 0
 }
 
 .navmenu li{
 	display: inline;
+	padding: 20px
 }
 
-.clear {
+footer{
 	clear: both;
+}
+
+.image {
+	width: 720px;
+	margin: 0 auto
+}
+
+img {
+	margin: 0 auto;
+
 }
 
 article {
@@ -65,7 +81,8 @@ article {
 }
 
 .text {
-	font-style: 
+	float: right;
+	font-size: larger
 }
 
 
