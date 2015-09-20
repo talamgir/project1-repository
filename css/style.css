@@ -1,4 +1,5 @@
 body {
+	background-image:/Users/taimuralamgir/Documents/NYCDA/Week-1/project1/Images/savethewhales-background.jpg;
 	margin: 0
 }
 
@@ -19,13 +20,14 @@ body {
 }
 
 .button {
-	padding: 10px 10px;
+	padding: 5px 5px;
 	border: 1px solid aqua;
 	color: aqua;
 	background-color: blue;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 5px;
+	font-family: 'Josefin Slab', serif;
 }
 
 .button:hover{
@@ -34,11 +36,13 @@ body {
 
 #wrapper {
 	width: 960px;
-	margin: 0 auto
+	height: 100%;
+	margin: 0 auto;
 }
 
 h1 {
 	text-align: center;
+	font-family: 'Josefin Slab', serif;
 }
 
 nav {
@@ -81,8 +85,8 @@ article {
 }
 
 .text {
-	float: right;
-	font-size: larger
+	font-size: larger;
+	font-family: 'Josefin Slab', serif;
 }
 
 
