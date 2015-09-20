@@ -58,15 +58,12 @@ body {
 	margin: 0 auto;
 	padding-top: 10px;
 	background-color: #66CCFF;
-	
-
 }
 
 
 h1 {
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
-	padding-top: 10px;
 	background-color: #66CCFF;
 }
 
@@ -117,10 +114,10 @@ article {
 }
 
 .top-image {
-	border: 7px solid black;
 	margin: 0 auto;
 	top: 0;
 	padding: 0;
+	width: 1400px
 }
 
 
