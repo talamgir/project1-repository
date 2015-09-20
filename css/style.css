@@ -1,11 +1,15 @@
+html {
+	background-color: teal;
+	margin: 0
+}
+
 body {
-	background-image:/Users/taimuralamgir/Documents/NYCDA/Week-1/project1/Images/savethewhales-background.jpg;
 	margin: 0
 }
 
 #sidebar {
 	width: 200px;
-	margin-top: 35px;
+	margin-top: 70px;
 	position: fixed;
 	left: 0
 }
@@ -35,9 +39,10 @@ body {
 }
 
 #wrapper {
-	width: 960px;
+	width: 720px;
 	height: 100%;
 	margin: 0 auto;
+	padding-top:10px;
 }
 
 h1 {
@@ -48,7 +53,7 @@ h1 {
 nav {
 	width: 700px;
 	padding: 10px;
-	margin-left: 120px;
+	margin-left: 20px;
 	margin-right: 120px;
 	background: teal
 }
@@ -56,7 +61,7 @@ nav {
 .navmenu {
 	list-style: none;
 	padding: 0;
-	width: 960px;
+	width: 720px;
 	margin: 0
 }
 
