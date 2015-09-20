@@ -1,17 +1,27 @@
-html {
-	background-color: teal;
-	margin: 0
+html{
+	margin: 0;
+	padding: 0;
+	height: 100%
 }
 
 body {
-	margin: 0
+	position: absolute;
+	top: 0
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: teal;
 }
 
 #sidebar {
-	width: 200px;
+	width: 180px;
 	margin-top: 70px;
 	position: fixed;
-	left: 0
+	left: 0;
+	border-right: 5px solid black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	background-color: #66CCFF
 }
 
 .sidemenu {
@@ -21,6 +31,8 @@ body {
 
 .sidemenu li{
 	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px
 }
 
 .button {
@@ -36,24 +48,33 @@ body {
 
 .button:hover{
 	margin: 2px 0 0 2px;
+
 }
 
+.right-banner {
+	position: fixed;
+	right: 0
+}
 #wrapper {
 	width: 720px;
 	height: 100%;
 	margin: 0 auto;
-	padding-top:10px;
+	background-color: #66CCFF;
+
 }
+
 
 h1 {
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
+	padding-top: 20px;
+	background-color: #66CCFF;
 }
 
 nav {
 	width: 700px;
 	padding: 10px;
-	margin-left: 20px;
+	margin-left: 0;
 	margin-right: 120px;
 	background: teal
 }
@@ -86,7 +107,9 @@ img {
 
 article {
 	width: 720px;
-	margin: 0 auto
+	margin: 0 auto;
+	padding-top: 10px;
+
 }
 
 .text {
