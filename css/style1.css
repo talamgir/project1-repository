@@ -1,0 +1,114 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%
+}
+
+body {
+	position: absolute;
+	top: 0
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: teal;
+}
+
+#sidebar {
+	width: 720px;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	border-top: 7px solid black;
+	background-color: #66CCFF
+
+}
+
+.sidemenu {
+	list-style: none;
+	margin: 0 auto
+
+}
+
+.sidemenu li{
+	display: inline;
+	padding-right: 25px;
+	padding-left: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px
+}
+
+.button {
+	padding: 5px 5px;
+	border: 1px solid aqua;
+	color: aqua;
+	background-color: blue;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.button:hover{
+	margin: 2px 0 0 2px;
+
+}
+
+#wrapper {
+	width: 720px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	background-color: #66CCFF;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: 'Josefin Slab', serif;
+	background-color: #66CCFF;
+}
+
+nav {
+	width: 700px;
+	padding: 10px;
+	margin-left: 0;
+	margin-right: 120px;
+	background: teal;
+	border-top: 7px solid black;
+	border-bottom: 7px solid black;
+}
+
+.navmenu {
+	list-style: none;
+	padding: 0;
+	width: 720px;
+	margin: 0
+}
+
+.navmenu li{
+	display: inline;
+	padding: 5px
+}
+
+article {
+	width: 720px;
+	margin: 0 auto;
+	padding-top: 10px;
+
+}
+
+.text1 {
+	font-size: larger;
+	font-family: 'Josefin Slab', serif;
+	float: left;
+	display: inline-block;
+}
+
+footer{
+	clear: both;
+}
+
+.clear {
+	padding: 10px;
+	clear: both;
+}
